@@ -317,10 +317,10 @@ def webhook():
     return "!", 200
 
 
-if __name__ == "__main__":
-	server.run(host="0.0.0.0", port=int(os.environ.get('PORT', 5000)))'''
+#if __name__ == "__main__":
+#	server.run(host="0.0.0.0", port=int(os.environ.get('PORT', 5000)))'''
 updater.start_webhook(listen="0.0.0.0",
                       port=5000,
                       url_path=API_TOKEN)
-updater.bot.set_webhook("https://sheltered-woodland-40358.herokuapp.com/" + API_TOKEN)
+updater.bot.set_webhook("https://vtest.herokuapp.com/" + API_TOKEN)
 updater.idle()
