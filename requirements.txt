@@ -78,7 +78,7 @@ subprocess32==3.2.7
 textwrap3==0.9.1
 tkfontchooser==2.0.2
 unity-lens-photos==1.0
-urllib3==1.23
+urllib3==1.26.5
 urllibcache==1.0.1
 virtualenv==16.0.0
 virtualenv-clone==0.3.0
